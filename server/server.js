@@ -1,6 +1,6 @@
 require('dotenv').config()
 const express = require('express')
-const { SERVER_PORT } = process.env
+const { PORT } = process.env
 
 const app = express()
 
@@ -11,4 +11,4 @@ app.use(express.json())
 const { home } = require('./controllers/controller')
 app.get('/', home)
 
-app.listen(SERVER_PORT, () => console.log(`Server running on port ${SERVER_PORT}`))
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
