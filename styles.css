@@ -1,0 +1,51 @@
+nav {
+    height: 72px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    position: fixed;
+    background-color: white;
+}
+
+nav > h2 {
+    margin-left: 40px;
+}
+
+nav > p {
+    margin-right: 40px;
+}
+
+.main-body {
+    top: 72px;
+}
+
+.action-heading {
+    color: #000000;
+
+}
+
+.banana-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+}
+
+div > img {
+    width: 400px;
+    height: 400px;
+}
+
+div > h5 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+div > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
