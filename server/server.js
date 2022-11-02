@@ -8,7 +8,7 @@ const app = express()
 app.use(express.json())
 
 
-const {home} = require('./controller')
+const { home } = require('./controller')
 app.get('/', home)
 
 app.listen(SERVER_PORT, () => console.log(`Server running on port ${SERVER_PORT}`))
